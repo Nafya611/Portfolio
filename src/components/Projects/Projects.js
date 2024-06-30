@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import usepopcorn from "../../Assets/Projects/usepopcorn.png";
+import eatSplit from "../../Assets/Projects/eat_split.png";
 
 
 function Projects() {
@@ -27,6 +28,18 @@ function Projects() {
               
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eatSplit}
+              isBlog={false}
+              title="Eat and Split"
+              description="Eat and Split is a simple React page that helps you calculate the fair split of a restaurant bill among friends. It allows you to enter the total bill amount, and then calculates the equal share for each person, displays the result."              
+              ghLink="https://github.com/nafya611/eat-split"
+              
+            />
+          </Col>
+
 
           
         </Row>
