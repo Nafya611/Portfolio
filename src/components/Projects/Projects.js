@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import usepopcorn from "../../Assets/Projects/usepopcorn.png";
 import eatSplit from "../../Assets/Projects/eat_split.png";
+import taskBoard from "../../Assets/Projects/taskBoard.png"
 
 
 function Projects() {
@@ -35,8 +36,18 @@ function Projects() {
               isBlog={false}
               title="Eat and Split"
               description="Eat and Split is a simple React page that helps you calculate the fair split of a restaurant bill among friends. It allows you to enter the total bill amount, and then calculates the equal share for each person, displays the result."              
-              ghLink="https://github.com/nafya611/eat-split"
+              ghLink="https://github.com/nafya611/eat_split"
               
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taskBoard}
+              isBlog={false}
+              title="Taskboard"
+              description="Its Vanila Javascript single page app that shows progress of tasks by categories Backlog,progress,complete,onhold. It also enable tasks to be draggable between those categories based on it's progres"              
+              ghLink="https://github.com/nafya611/Task-Board"
+              demoLink="https://task-board-flame.vercel.app/"
             />
           </Col>
 
