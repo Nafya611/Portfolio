@@ -37,6 +37,7 @@ function Projects() {
               title="Eat and Split"
               description="Eat and Split is a simple React page that helps you calculate the fair split of a restaurant bill among friends. It allows you to enter the total bill amount, and then calculates the equal share for each person, displays the result."              
               ghLink="https://github.com/nafya611/eat_split"
+              demoLink="https://eat-split-pink.vercel.app/"
               
             />
           </Col>
@@ -48,6 +49,16 @@ function Projects() {
               description="Its Vanila Javascript single page app that shows progress of tasks by categories Backlog,progress,complete,onhold. It also enable tasks to be draggable between those categories based on it's progres"              
               ghLink="https://github.com/nafya611/Task-Board"
               demoLink="https://task-board-flame.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taskBoard}
+              isBlog={false}
+              title="Echobyte Fitness"
+              descripttion="A responsive website for a fitness center that provides information about the gym, classes,services and contact information. The website is built using HTML, CSS, and JavaScript."              
+              ghLink="https://github.com/nafya611/PRODIGY-WD-01"
+              demoLink="https://prodigy-wd-01-git-master-nafyad-hailus-projects.vercel.app/"
             />
           </Col>
 
