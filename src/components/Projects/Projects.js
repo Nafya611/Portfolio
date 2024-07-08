@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import usepopcorn from "../../Assets/Projects/usepopcorn.png";
 import eatSplit from "../../Assets/Projects/eat_split.png";
 import taskBoard from "../../Assets/Projects/taskBoard.png"
+import echobyte from "../../Assets/Projects/echobyte.png"
 
 
 function Projects() {
@@ -53,11 +54,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={taskBoard}
+              imgPath={echobyte}
               isBlog={false}
               title="Echobyte Fitness"
-              descripttion="A responsive website for a fitness center that provides information about the gym, classes,services and contact information. The website is built using HTML, CSS, and JavaScript."              
-              ghLink="https://github.com/nafya611/PRODIGY-WD-01"
+              description="A responsive website for a fitness center that provides information about the gym, classes,services and contact information. The website is built using HTML, CSS, and JavaScript."              
+              ghLink="https://github.com/Nafya611/PRODIGY_WD_01"
               demoLink="https://prodigy-wd-01-git-master-nafyad-hailus-projects.vercel.app/"
             />
           </Col>
